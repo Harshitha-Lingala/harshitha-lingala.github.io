@@ -61,10 +61,12 @@
 				<style>
   /* For desktop and larger screens */
   .image.avatar img {
-    width: 160px; /* Set your desired width */
-    height: 160px; /* Set your desired height */
-    border-radius: 50%; /* Optional: To make the image circular */
-    margin-left: -50px; /* Adjust this value to move the image left */
+    width: 160px; /* Adjust this for the desired width */
+    height: 160px; /* Adjust this for the desired height */
+    border-radius: 50%; /* This ensures the image is circular */
+    object-fit: cover; /* Ensures the image doesn't get distorted */
+    margin-left: -20px; /* Adjust to move the image left or right */
+    margin-top: 0px; /* Optional: Adjust if needed to move the image up or down */
   }
 
   /* For mobile and smaller screens */
